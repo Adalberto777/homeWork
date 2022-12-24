@@ -12,8 +12,75 @@ public class Main {
 //        task04();
 //        task06();
 //        task07();
-        task08();
+//        task08();
+//        task09();
+//        task10();
+//        task11();
+        task05();
 
+
+    }
+
+    private static void task05() {
+        System.out.print("Enter year: ");
+        Scanner scanner = new Scanner(System.in);
+        int year = scanner.nextInt();
+        if (year % 400 == 0) {
+            System.out.print("TRUE: ");
+        } else if (year % 4 == 0 & year % 100 != 0) {
+            System.out.print("TRUE: ");
+        } else System.out.print("FALSE: ");
+
+
+    }
+
+    private static void task11() {
+        int [] arr = new int[10];
+        Random random = new Random();
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = random.nextInt(10);
+            System.out.print(arr[i]);
+        }
+        System.out.println();
+        int max = arr[0];
+        int min = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max){
+                max = arr[i];
+            }
+            if (arr[i] < min) {
+                min = arr[i];
+                }
+            }
+        System.out.printf("max element: %d%n", max);
+        System.out.printf("min element: %d%n", min);
+    }
+
+    private static void task10() {
+        System.out.print("Enter number of members: ");
+        Scanner scanner = new Scanner(System.in);
+        int len = scanner.nextInt();
+        System.out.print("Enter initial value : ");
+        int num = scanner.nextInt();
+        int [] arr = new int[len];
+        for (int i = 0; i < len; i++) {
+            arr[i] = num;
+            System.out.print(arr[i]);
+        }
+    }
+
+    private static void task09() {
+        int [][] arr = new int[7][7];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i][i] = 1;
+            arr[i][arr.length - 1 - i] = 1;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(arr[i][j]);
+            }
+            System.out.println();
+        }
     }
 
     private static void task08() {
