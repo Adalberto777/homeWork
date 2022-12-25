@@ -6,32 +6,27 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        task01();
-//        task02();
-//        task03();
+
+        System.out.println(task01());
+//        System.out.println(task02());
+//        System.out.println(task03());
 //        task04();
 //        task06();
 //        task07();
 //        task08();
 //        task09();
-//        task10();
+//        System.out.println(Arrays.toString(task10(6, 7)));
 //        task11();
-        task05();
+//        System.out.println(task05());
 
 
     }
 
-    private static void task05() {
+    private static boolean task05() {
         System.out.print("Enter year: ");
         Scanner scanner = new Scanner(System.in);
         int year = scanner.nextInt();
-        if (year % 400 == 0) {
-            System.out.print("TRUE: ");
-        } else if (year % 4 == 0 & year % 100 != 0) {
-            System.out.print("TRUE: ");
-        } else System.out.print("FALSE: ");
-
-
+        return (year % 400 == 0) || (year % 4 == 0 & year % 100 != 0);
     }
 
     private static void task11() {
@@ -56,17 +51,12 @@ public class Main {
         System.out.printf("min element: %d%n", min);
     }
 
-    private static void task10() {
-        System.out.print("Enter number of members: ");
-        Scanner scanner = new Scanner(System.in);
-        int len = scanner.nextInt();
-        System.out.print("Enter initial value : ");
-        int num = scanner.nextInt();
+    private static int[] task10(int len, int initialValue) {
         int [] arr = new int[len];
         for (int i = 0; i < len; i++) {
-            arr[i] = num;
-            System.out.print(arr[i]);
+            arr[i] = initialValue;
         }
+        return arr;
     }
 
     private static void task09() {
@@ -120,7 +110,7 @@ public class Main {
     }
 
     private static void task04() {
-        System.out.print("Enter number string: ");
+        System.out.print("Enter string: ");
         Scanner scanner = new Scanner(System.in);
         String string = scanner.next();
         System.out.print("Enter number : ");
@@ -130,39 +120,33 @@ public class Main {
         }
     }
 
-    private static void task03() {
+    private static boolean task03() {
         System.out.print("Enter number: ");
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
-        if (0 > num){
-            System.out.println("TRUE");
-        }else {
-            System.out.println("FALSE");
-        }
+        return (0 > num);
     }
 
-    private static void task02() {
+    private static String task02() {
         System.out.print("Enter number: ");
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
+        String result = "";
         if (0 > num){
-            System.out.println("negative number");
+             result = "negative number";
         }else {
-            System.out.println("positive number");
+            result ="positive number";
         }
+        return result;
     }
 
-    private static void task01() {
+    private static boolean task01() {
         System.out.print("Enter number first: ");
         Scanner scanner = new Scanner(System.in);
         int num_first = scanner.nextInt();
         System.out.print("Enter number second: ");
         int num_second = scanner.nextInt();
         int s = num_first + num_second;
-        if (s >= 10 && s <= 20){
-            System.out.println("TRUE");
-        }else {
-            System.out.println("FALSE");
-        }
+        return (s >= 10 && s <= 20);
     }
 }
