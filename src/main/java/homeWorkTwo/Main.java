@@ -7,23 +7,23 @@ import java.io.PrintWriter;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 //        System.out.println(checkPalindrome("arrara"));
-        getTestInString("TEST", 100);
-        writeToFileTest();
+        writeTestInString("TEST", 100);
+        writeTestToFile();
 
     }
 
-    private static void writeToFileTest() throws FileNotFoundException {
+    private static void writeTestToFile() throws FileNotFoundException {
         PrintWriter pw = null;
         try {
-            pw = new PrintWriter("D:\\NewGeekBrains\\Java\\Java_Project\\homeWork\\src\\main\\resources\\sours\\test.txt");
+            pw = new PrintWriter("src/main/resources/sours/test.txt");
         } catch (FileNotFoundException e) {
-            throw new RuntimeException("String is Employ ");
+            throw new RuntimeException("Error, can't find this directory");
         }
-        pw.println(getTestInString("TEST", 100));
+        pw.println(writeTestInString("TEST", 100));
         pw.close();
     }
 
-    private static String getTestInString(String str, Integer count) {
+    private static String writeTestInString(String str, Integer count) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < count; i++) {
             sb.append(str);
