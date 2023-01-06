@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109ba5f8-27af-4db6-8a81-0ad2e693670c" name="Changes" comment="end03/01/23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFour/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFour/MyStack.java" afterDir="false" />
+    <list default="true" id="109ba5f8-27af-4db6-8a81-0ad2e693670c" name="Changes" comment="stack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFour/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWorkFour/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWorkFour/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWorkFour.MyQueue" />
+      <module name="homeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWorkFour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWorkFour.MyStack" />
       <module name="homeWork" />
@@ -101,6 +113,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.homeWorkFour.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -199,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672735502230</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="stack">
+      <created>1673019427509</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673019427509</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,7 +232,8 @@
     <MESSAGE value="task02/2" />
     <MESSAGE value="end26/12/22" />
     <MESSAGE value="end03/01/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="end03/01/23" />
+    <MESSAGE value="stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

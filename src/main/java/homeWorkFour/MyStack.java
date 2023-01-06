@@ -1,9 +1,6 @@
 package homeWorkFour;
 
-import java.util.Arrays;
 import java.util.LinkedList;
-
-import static java.util.Arrays.*;
 
 public class MyStack {
     private static LinkedList<String> stack = new LinkedList<>();
@@ -15,7 +12,7 @@ public class MyStack {
     }
 
     private static String pop() {
-        return stack.removeLast();
+        return stack.pop();
     }
 
     private static String peek() {
