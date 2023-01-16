@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109ba5f8-27af-4db6-8a81-0ad2e693670c" name="Changes" comment="queue">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/Main.java" afterDir="false" />
+    <list default="true" id="109ba5f8-27af-4db6-8a81-0ad2e693670c" name="Changes" comment="end/10/01/23">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkSix/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkSix/NoteBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673020900732</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="end/10/01/23">
+      <created>1673367423198</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673367423198</updated>
+    </task>
+    <task id="LOCAL-00016" summary="end/10/01/23">
+      <created>1673367572121</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673367572121</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,7 +270,8 @@
     <MESSAGE value="end03/01/23" />
     <MESSAGE value="stack" />
     <MESSAGE value="queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue" />
+    <MESSAGE value="end/10/01/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="end/10/01/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
